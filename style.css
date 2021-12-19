@@ -1,0 +1,80 @@
+body {
+    background: hsl(240, 8%, 93%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+
+h1 {
+    font-weight: normal;
+    color: hsl(234, 12%, 34%);
+}
+
+.titreGras {
+
+    font-weight: bold;
+    color: hsl(234, 12%, 34%);
+}
+
+h4 {
+    color: hsl(229, 6%, 66%);
+}
+
+h3 {
+    color: hsl(234, 12%, 34%);
+}
+
+p {
+    Font-size: 15px;
+    color: hsl(229, 6%, 66%);
+}
+
+
+.textSup {
+    text-align: center;
+}
+
+.cardFeature {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1, .card2, .card3, .card4 {
+    background: hsl(0, 0%, 98%);
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+    padding: 20px 30px 20px 30px;
+    box-shadow: 2px 10px 18px 3px rgba(123, 159, 201, 0.2);
+    border-radius: 7px;
+
+}
+
+
+.card1 {
+    border-top: hsl(180, 62%, 55%) solid 5px;
+}
+
+.card2 {
+    border-top: hsl(0, 78%, 62%) solid 5px;
+}
+
+.card3 {
+    border-top: hsl(34, 97%, 64%) solid 5px;
+}
+
+.card4 {
+    border-top: hsl(212, 86%, 64%) solid 5px;
+}
+
+.cardCenter .card1, .card2, .card3, .card4 {
+    margin-top: 40px;
+}
+
+.icon {
+    text-align: right;
+    padding-top: 10px;
+}
